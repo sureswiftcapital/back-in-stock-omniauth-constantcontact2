@@ -15,12 +15,12 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'omniauth', '~> 1.0'
-  gem.add_dependency 'omniauth-oauth2', '~> 1.0'
-  gem.add_dependency 'multi_json', '~> 1.0'
+  gem.add_dependency 'omniauth', '~> 2.1'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.7'
+  gem.add_dependency 'multi_json', '~> 1.15'
 
   gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'rspec', '~> 2.8'
+  gem.add_development_dependency 'rspec', '~> 3.11'
   gem.add_development_dependency 'rack-test'
   gem.add_development_dependency 'simplecov'
 end
